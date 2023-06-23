@@ -79,7 +79,7 @@ body{
 
 .benefits{
     background-color: var(--garyrayColor2);
-    padding: 35px 60px;
+    padding: 35px 60px 0 60px;
     border-radius: 5px;
     margin-bottom: 20px;
 }
@@ -97,12 +97,12 @@ body{
 .boxs{
     width: 33.33%;
     padding-right: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
 }
 
-.boxs:nth-last-child(-n+2){
+/* .boxs:nth-last-child(-n+2){
     margin-bottom: 0px;
-}
+} */
 
 .boxImage{
     margin-bottom: 20px;
@@ -376,7 +376,7 @@ body{
     }
 
     .benefits {
-        padding: 35px 20px;
+        padding: 35px 20px 0 20px;
     }
 }
 
